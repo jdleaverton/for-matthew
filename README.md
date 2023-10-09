@@ -1,17 +1,17 @@
 # How to run
 
-#### 1. Make sure Python is installed with tkinter add on
-- Otherwise you might have to install the tinker add on with `brew install tcl-tk` and `brew reinstall python@3.11 --with-tcl-tk`
-- Python should be version 3.11, not native macOS 2.7
- 2. Download the zipped files from this repo and put them in a folder
+1. Make sure Python is installed with tkinter add on
+ - Otherwise you might have to install the tinker add on with `brew install tcl-tk` and `brew reinstall python@3.11 --with-tcl-tk`
+ - Python should be version 3.11, not native macOS 2.7
+2. Download the zipped files from this repo and put them in a folder
 
-#### 3. In VSCode, or some other IDE, create a python virtual environment with the terminal command: `python -m venv .venv`
+3. In VSCode, or some other IDE, create a python virtual environment with the terminal command: `python -m venv .venv`
 
-#### 4. Activate the virtual environment with `source .venv/bin/activate`
+4. Activate the virtual environment with `source .venv/bin/activate`
 
-#### 5. Install all required packages wth `pip install < requirements.txt` (or something similar, look it up)
+5. Install all required packages wth `pip install < requirements.txt` (or something similar, look it up)
 
-#### 6. Run it with `python3 main.py`
+6. Run it with `python3 main.py`
 
 # Next Steps
 - Code is incomplete and requires some remaining debugging
