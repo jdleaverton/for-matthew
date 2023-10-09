@@ -33,13 +33,13 @@ def main():
     logging.info('Computing statistics')
     statistics = compute_statistics.compute_statistics(arrays)
 
-    # Step 6: Identify, Label, and Visualize Fibers
+    # Step 6: Calibrate bitmap and identify features
     avg_values = calibrate_bitmap.calibrate_bitmap()
     fiber_arrays, matrix_arrays, void_arrays = identify_features.identify_features(avg_values, arrays)
     print(avg_values)
     print(len(fiber_arrays))
     
-    # Step 7: 3D Plotting
+    # Step 7: 3D Plotting of features in point cloud
     logging.info('Plotting 3D')
     plot_3d.plot_3d(fiber_arrays)
 
